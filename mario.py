@@ -107,7 +107,7 @@ class FallingEnemy:
         self.rect = pg.Rect(x, y, w, h)
         self.vy = speed  # 落下速度
 
-    def update(self):
+    def update(self): 
         self.rect.y += self.vy  # 下に落ちる
 
         # 画面外に出たら上にリセット
